@@ -21,4 +21,24 @@ Versiones
 1.0.1   Aumento la version y se areglo bug
 1.1.0   Se grego caracteristica
 2.0.0   Cambio completamente el programa
+
+Para utilizar heroku se debe instalar heroku cli
+
+    host="academia.c1mebdhdxytu.us-east-1.rds.amazonaws.com",
+    user="p1",
+    password="ALrUBIaLYcHR",
+    database="p1"
+    
+    heroku --version
+    heroku login
+    heroku create flask-nombre
+    heroku git:remote -a flask-nombre
+    Crear archivo en la carpeta raiz /templates "Procfile"
+    Dentro del archivo Procfile
+        web: gunicorn main:app
+    git add .
+    git push heroku main
+    
+loguearse
+
 """
