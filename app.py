@@ -37,6 +37,7 @@ Para utilizar heroku se debe instalar heroku cli
     Dentro del archivo Procfile
         web: gunicorn main:app
     git add .
+    git commit -m "Comentario"
     git push heroku main
     
 loguearse

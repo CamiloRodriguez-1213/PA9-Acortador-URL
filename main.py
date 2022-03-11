@@ -43,4 +43,4 @@ def redirection(shortened):
     print(result[0])
     
     return redirect(result[0])
-app.run(debug=True)
+""" app.run(debug=True) """
