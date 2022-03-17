@@ -13,6 +13,13 @@ db = mysql.connect(
     password="ALrUBIaLYcHR",
     database="p1"
 )
+""" db = mysql.connect(
+
+    host="localhost",
+    user="root",
+    password="",
+    database="dictionary"
+) """
 cursor = db.cursor()
 @app.route("/", methods=["GET", "POST"])
 def index():
@@ -21,7 +28,7 @@ def index():
 @app.route("/create", methods=["GET", "POST"])
 def createShortener():
     
-    length_of_string = 5
+    length_of_string = 3
     
     short =(''.join(random.choice(string.ascii_letters + string.digits) for _ in range(length_of_string)))
     if request.method == 'POST':
