@@ -9,9 +9,9 @@ app = Flask(__name__)
 db = mysql.connect(
 
     host="academia.c1mebdhdxytu.us-east-1.rds.amazonaws.com",
-    user="p1",
+    user="p5",
     password="ALrUBIaLYcHR",
-    database="p1"
+    database="p5"
 )
 """ db = mysql.connect(
 
