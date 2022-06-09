@@ -6,7 +6,7 @@ activar el entorno virtual
 cd env/cd scripts/activate.bat
 pip install Flask
 jinja 2 motor de plantillas
-(pip freeze) para  ver caracteristicas o extensiones
+(pip freeze) para  ver caracteristicas o extensiones    
 pip freeze > requirements.txt -> detectamos los requerimientos o librerias importadas
 pip install -r requirements.txt -> importa a un archivo txt nuestras librerias
 
@@ -25,9 +25,9 @@ Versiones
 Para utilizar heroku se debe instalar heroku cli
 
     host="academia.c1mebdhdxytu.us-east-1.rds.amazonaws.com",
-    user="p1",
+    user="p5",
     password="ALrUBIaLYcHR",
-    database="p1"
+    database="p5"
     
     heroku --version
     heroku login
@@ -39,6 +39,7 @@ Para utilizar heroku se debe instalar heroku cli
     git add .
     git commit -m "Comentario"
     git push heroku main
+    
     
 loguearse
 
